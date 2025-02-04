@@ -1,13 +1,13 @@
-import './App.css';
-import PartOne from './components/PartOne';
+import Home from './Pages/Home';
+import TopicBox from './components/TopicBox';
+//import Content from './components/content';
 
 function App() {
   return (
     <div className="App">
-      <h1> This is My First React Project</h1>
-      <PartOne /> 
-      <PartOne /> 
-      <PartOne /> 
+      
+      <TopicBox />
+      <Home />
     </div>
   );
 }
