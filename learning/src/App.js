@@ -1,14 +1,18 @@
+import About from './Pages/about'; 
 import Home from './Pages/Home';
-import TopicBox from './components/TopicBox';
-//import Content from './components/content';
+
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 function App() {
   return (
-    <div className="App">
-      
-      <TopicBox />
-      <Home />
-    </div>
+    <Router>
+      <main>
+        <Routes>
+          <Route exact path="/" element={<Home />} /> 
+          <Route exact path="/about" element={<About />} />
+        </Routes>
+      </main>
+    </Router>
   );
 }
 
