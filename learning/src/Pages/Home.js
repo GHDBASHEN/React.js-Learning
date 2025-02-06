@@ -3,7 +3,7 @@ import Content from '../components/content'
 import TopicBox from '../components/TopicBox';
 import Car from '../Pages/car';
 import {Football,Football1} from '../components/Football';
-
+import Goal from '../components/Goal';
 export default function Home() {
     return (
         <div>
@@ -24,6 +24,7 @@ export default function Home() {
             <Car />
             <Football />
             <Football1 />
+            <Goal isGoal={true} />
         </div>
     )
 }
