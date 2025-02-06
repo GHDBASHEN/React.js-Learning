@@ -1,6 +1,7 @@
 import React from 'react'
 import Content from '../components/content'
 import TopicBox from '../components/TopicBox';
+import Car from '../Pages/car';
 export default function Home() {
     return (
         <div>
@@ -18,6 +19,7 @@ export default function Home() {
                 </span>
             </TopicBox>
             <TopicBox Food="Burger" />
+            <Car />
         </div>
     )
 }
