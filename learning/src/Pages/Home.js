@@ -2,6 +2,7 @@ import React from 'react'
 import Content from '../components/content'
 import TopicBox from '../components/TopicBox';
 import Car from '../Pages/car';
+import Football from '../components/Football';
 export default function Home() {
     return (
         <div>
@@ -20,6 +21,7 @@ export default function Home() {
             </TopicBox>
             <TopicBox Food="Burger" />
             <Car />
+            <Football />
         </div>
     )
 }
