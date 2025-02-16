@@ -5,6 +5,7 @@ import Header from './Pages/Header';
 import Header2 from './Pages/Header2';
 import Container from './Pages/Container';
 import FavoriteColor from './Pages/FavoriteColor';
+import CarModule from './Pages/CarModule';
 
 
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
@@ -21,6 +22,7 @@ function App() {
           <Route exact path="/Header2" element={<Header2 />} />
           <Route exact path="/Container" element={<Container />} />
           <Route exact path="/FavoriteColor" element={<FavoriteColor />} />
+          <Route exact path="/CarModule" element={<CarModule />} />
 
         </Routes>
       </main>

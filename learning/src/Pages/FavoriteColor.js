@@ -6,7 +6,14 @@ export default  function FavoriteColor() {
   return (
     <>
     <div>My favourite is {color} </div>
-    <button type="button" onClick={() => setColor("Blue")}>Change to Blue</button></>
+    <button type="button" onClick={() => setColor("Blue")}>Change to Blue</button>
+    <button type="button" onClick={() => setColor("Yellow")}>Change to Blue</button>
+    <button type="button" onClick={() => setColor("Green")}>Change to Blue</button>
+    
+    
+    
+    
+    </>
   )
 }
 
